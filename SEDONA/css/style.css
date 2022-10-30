@@ -1,11 +1,17 @@
 
+@font-face {font-family: "PT sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/ptsans-400.woff2') format('woff2');
+	font-display: swap;
 body {text-transform:uppercase;}
-headline {font-family: PT Sans;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: 0px;
-    text-align: center;}
+
+@font-face {
+	font-family: "PT sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/ptsans-700.woff2') format('woff2');
+	font-display: swap;}
 
 
-
+.main-content{text-transform: uppercase;}
