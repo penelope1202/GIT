@@ -4,14 +4,13 @@
 	font-weight: 400;
 	src: url('../fonts/ptsans-400.woff2') format('woff2');
 	font-display: swap;
-body {text-transform:uppercase;}
 
-@font-face {
-	font-family: "PT sans";
+
+@font-face {font-family: "PT sans";
 	font-style: normal;
 	font-weight: 700;
 	src: url('../fonts/ptsans-700.woff2') format('woff2');
 	font-display: swap;}
+.slogan{text-transform:uppercase;
+font: size 28px;}
 
-
-.main-content{text-transform: uppercase;}
